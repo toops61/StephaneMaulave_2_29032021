@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Raleway', "Arial Black", Arial, Verdana, sans-serif;
+    background-color: #F2F2F2;
+}
