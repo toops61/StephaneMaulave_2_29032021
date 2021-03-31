@@ -11,12 +11,20 @@
 body {
     margin-top: 0;
     font-family: 'Raleway', "Arial Black", Arial, Verdana, sans-serif;
-    background-color: #F2F2F2;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: 'Raleway Bold';
+}
+
+h3 {
+    font-size: 0.9em;
+    font-family: 'Raleway Bold';
+}
+
+p {
+    font-size: 0.9em;
 }
 
 a {
@@ -27,42 +35,148 @@ a {
 header {
     position: relative;
     margin: 0 20px;
-    border: 3px solid;
-    height: 400px;
+    height: 350px;
 }
 
-.presentation {
-    position: absolute;
-    border: 3px solid blue;
-    margin-top: 20px;
-    padding-bottom: 0%;
-    height: 30%;
-    width: 50%;
-}
-
-.presentation img {
-    width: 13%;
-}
-
-
+/* menu cliquable en haut à droite */
 .menu_ancres ul {
     position: absolute;
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     margin-top: 0%;
-    right: 0%;
+    right: 2%;
     list-style-type: none;
     width: 35%;
     height: 20%;
+    z-index: 1;
 }
 
 .menu_ancres li {
     top: 0;
-    padding: 9% 5%;
-    font-size: 0.8em;
+    padding: 40px 10px;
+    font-size: 0.9em;
 }
 
 .menu_ancres li:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
+}
+
+/* left side of the header */
+.header_side {
+    position: absolute;
+    margin-top: 30px;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* reservia description */
+.presentation {
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.presentation img {
+    width: 85px;
+}
+
+.presentation p {
+    margin-top: -10px;
+}
+
+/* search bar */
+.search {
+    width: 35%;
+    height: 13%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+.place_icon {
+    background-color: #F2F2F2;
+    flex: 1;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 15px 0 0 15px;
+}
+
+.search input {
+    flex: 4;
+    border: 1px solid #F2F2F2;
+    padding-left: 15px;
+}
+
+.search_btn {
+    flex: 2;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 0 15px 15px 0;
+    border: none;
+}
+
+/* filters bar */
+.filters {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.filters--btn {
+    border: solid #DEEBFF 2px;
+    width: auto;
+    height: 40px;
+    display: flex;
+    border-radius: 30px;
+}
+
+.filters--pict {
+    background-color: #DEEBFF;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.filters img {
+    width: 40%;
+    margin-top: 30%;
+}
+
+.filters--btn {
+    margin-right: 20px;
+
+}
+
+.filters span {
+    margin-right: 20px;
+    margin-top: -1px;
+}
+
+.filters p {
+    font-size: 0.9em;
+    font-family: 'Raleway Bold';
+    margin: 10px 15px 15px 20px;
+}
+
+/* infos */
+.info-bar {
+    display: flex;
+}
+
+.info-bulle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: solid #F2F2F2;
+    text-align: center;
+    margin: 8px 15px 0px 0px;
+}
+
+.info-bulle img {
+    height: 50%;
+    margin-top: 20%;
 }
