@@ -29,7 +29,7 @@ p {
 
 a {
     text-decoration: none;
-    color: #0065FC;
+    color: black;
 }
 
 header {
@@ -52,17 +52,24 @@ header {
     z-index: 1;
 }
 
+.menu_ancres li:last-child {
+    font-weight: bold;
+}
+
 .menu_ancres li {
     top: 0;
     padding: 40px 10px;
     font-size: 0.9em;
+    color: #0065FC;
 }
 
 .menu_ancres li:hover {
     border-top: 3px solid #0065FC;
-    color: #0065FC;
 }
 
+.menu_ancres a:hover {
+    color: #0065FC;
+}
 /* left side of the header */
 .header_side {
     position: absolute;
@@ -123,6 +130,7 @@ header {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    margin-bottom: 15px;
 }
 
 .filters--btn {
@@ -141,19 +149,8 @@ header {
     border-radius: 50%;
 }
 
-.filters img {
-    width: 40%;
-    margin-top: 30%;
-}
-
-.filters--btn {
+.filters--btn, .filters h3 {
     margin-right: 20px;
-
-}
-
-.filters span {
-    margin-right: 20px;
-    margin-top: -1px;
 }
 
 .filters p {
@@ -162,6 +159,26 @@ header {
     margin: 10px 15px 15px 20px;
 }
 
+/*icon bubbles*/
+#money {
+    width: 48%;
+    margin-top: 30%;
+}
+
+#kid {
+    width: 35%;
+    margin-top: 25%;
+}
+
+#heart {
+    width: 42%;
+    margin-top: 28%;
+}
+
+#dog {
+    width: 48%;
+    margin-top: 25%;
+}
 /* infos */
 .info-bar {
     display: flex;
