@@ -9,7 +9,7 @@
 }
 
 body {
-    margin-top: 0;
+    margin: 0 20px;
     font-family: 'Raleway', "Arial Black", Arial, Verdana, sans-serif;
 }
 
@@ -34,7 +34,7 @@ a {
 
 header {
     position: relative;
-    margin: 0 20px;
+    margin-bottom: 20px;
     height: 350px;
 }
 
@@ -53,7 +53,7 @@ header {
 }
 
 .menu_ancres li:last-child {
-    font-weight: bold;
+    font-family: 'Raleway Bold';
 }
 
 .menu_ancres li {
@@ -65,6 +65,7 @@ header {
 
 .menu_ancres li:hover {
     border-top: 3px solid #0065FC;
+    padding-top: 37px;
 }
 
 .menu_ancres a:hover {
@@ -74,7 +75,6 @@ header {
 .header_side {
     position: absolute;
     margin-top: 30px;
-    width: 80%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -83,7 +83,6 @@ header {
 /* reservia description */
 .presentation {
     height: auto;
-    margin-bottom: 2%;
 }
 
 .presentation img {
@@ -166,7 +165,7 @@ header {
 }
 
 #kid {
-    width: 35%;
+    width: 36%;
     margin-top: 25%;
 }
 
@@ -182,6 +181,7 @@ header {
 /* infos */
 .info-bar {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .info-bulle {
@@ -197,3 +197,12 @@ header {
     height: 50%;
     margin-top: 20%;
 }
+
+/* Main section with "hébergements" */
+main {
+    position: relative;
+    display: flex;
+    border: solid blueviolet;
+}
+
+
