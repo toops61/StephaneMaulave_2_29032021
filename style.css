@@ -9,8 +9,10 @@
 }
 
 body {
-    margin: 0 20px;
+    margin: 0 30px;
     font-family: 'Raleway', "Arial Black", Arial, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -23,6 +25,11 @@ h3 {
     font-family: 'Raleway Bold';
 }
 
+h4 {
+    font-size: 0.74em;
+    font-family: 'Raleway Bold';
+}
+
 p {
     font-size: 0.9em;
 }
@@ -32,6 +39,15 @@ a {
     color: black;
 }
 
+strong {
+    font-family: 'Raleway bold';
+}
+
+main p {
+    font-size: 0.7em;
+}
+
+/* ------------------------------ header ------------------------------ */
 header {
     position: relative;
     margin-bottom: 20px;
@@ -93,9 +109,9 @@ header {
     margin-top: -10px;
 }
 
-/* search bar */
+/* city search bar */
 .search {
-    width: 35%;
+    width: 40%;
     height: 13%;
     margin-bottom: 3%;
     display: flex;
@@ -113,6 +129,7 @@ header {
     flex: 4;
     border: 1px solid #F2F2F2;
     padding-left: 15px;
+    font-family: 'Raleway Bold';
 }
 
 .search_btn {
@@ -198,19 +215,21 @@ header {
     margin-top: 20%;
 }
 
-/* Main section with "hébergements" */
+/* ------------------------------ Main section with "hébergements" ------------------------------ */
 main {
     position: relative;
+    align-self: center;
     display: flex;
     flex-direction: column;
     border: solid blueviolet;
     height: 1200px;
+    width: 1200px;
 }
 
 #hebergements {
     display: flex;
     border: solid pink;
-    height: 50%;
+    height: 47%;
 }
 
 .hebergements--city {
@@ -218,72 +237,116 @@ main {
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
-    flex: 2;
-    padding: 10px 20px;
+    flex: 20;
+    padding: 30px 30px 0px;
+    margin-right: 30px;
+    border-radius: 20px;
 }
 
-.hebergements--city--cards {
+.hebergements--city--cards { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     border: solid maroon;
+    margin-right: -30px;
 }
 
 .cards {
     width: 220px;
-    height: 150px;
-    border: solid red;
+    height: 160px;
+    border: 4px solid red;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 20px;
+    margin-right: 30px;
 }
 
 .cards img {
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .cards--legend {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 35%;
+    height: 42%;
     background-color: white;
     border-radius: 0 0 17px 17px;
+    padding-left: 15px;
 }
 
+.hebergements--city a:hover {
+    color: #0065FC;
+}
+/* les plus populaires : aside */
 .hebergements--popular {
-    border: solid green;
+    padding-top: 30px;
     background-color: #F2F2F2;
-    flex: 1;
-    padding-left: 5%;
+    flex: 9;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: solid green;
+    border-radius: 20px;
+}
+
+.hebergements--popular--title {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.hebergements--popular--title img {
+    width: 20px;
 }
 
 .cards-popular {
-    width: 300px;
+    width: 280px;
     height: 120px;
-    border: solid mediumpurple;
-    position: relative;
+    border: 4px solid white;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 20px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
-.cards-popular img {
-    width: 100%;
-    margin-bottom: 20px;
+.cards-popular--img {
+    width: 40%;
+    height: 120px;
+    object-fit: cover;
 }
 
 .popular--legend {
-    position: absolute;
-    right: 0;
-    width: 70%;
+    width: 60%;
     height: 100%;
     background-color: white;
-    border-radius: 0 0 17px 17px;
+    border-radius: 0 17px 17px 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
+.popular--legend h4 {
+    margin-top: 10px;
+}
+
+.popular--legend p {
+    margin-top: -10px;
+}
+
+.stars-bar {
+    width: 50px;
+    display: flex;
+}
+
+.stars-bar img {
+    width: 10px;
+}
+
+/* ------------------------------ Section2 ancre activities ------------------------------ */
 #activites {
-    border: gold;
+    border: solid gold;
+    height: 50%;
 }
