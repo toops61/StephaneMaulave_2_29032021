@@ -263,6 +263,18 @@ main {
     width: 100%;
 }
 
+.img-upper {
+    object-position: 0px -20px;
+}
+
+#laMer {
+    object-position: 0px -60px;
+}
+
+#amina {
+    object-position: 0px -115px;
+}
+
 .cards--legend {
     position: absolute;
     bottom: 0;
