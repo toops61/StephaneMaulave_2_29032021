@@ -217,19 +217,16 @@ header {
 
 /* ------------------------------ Main section with "hébergements" ------------------------------ */
 main {
-    position: relative;
     align-self: center;
     display: flex;
     flex-direction: column;
     border: solid blueviolet;
-    height: 1200px;
     width: 100%;
 }
 
 #hebergements {
     display: flex;
     border: solid pink;
-    height: 47%;
 }
 
 .hebergements--city {
@@ -374,6 +371,73 @@ main {
 
 /* ------------------------------ Section2 ancre activities ------------------------------ */
 #activites {
+    padding: 20px 30px;
     border: solid gold;
-    height: 50%;
 }
+
+.activites--boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid red;
+}
+
+.activites--cards {
+    position: relative;
+    height: 310px;
+    width: 220px;
+    border: solid green;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.activites--cards img {
+    height: 100%;
+}
+
+#vieuxPort {
+    object-position: -120px 0;
+}
+
+#calanques {
+    object-position: -135px 0;
+    filter: brightness(1.1);
+}
+
+.activites--cards--both {
+    height: 310px;
+    width: 220px;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
+.activites--cards--shorts {
+    height: 45%;
+    border: solid purple;
+    position: relative;
+    overflow: hidden;
+}
+
+.activites--cards--shorts img {
+    width: 100%;
+}
+
+.activites--cards--legend {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: white;  
+    padding-left: 15px;
+}
+
+  /* ------------------------------ Footer ------------------------------ */
+  footer {
+      margin: 10px -30px 0 -30px;
+      background-color: #F2F2F2;
+      height: 200px;
+      border: solid;
+  }
