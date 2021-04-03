@@ -367,6 +367,7 @@ main {
 .popular--stars-bar {
     width: 50px;
     display: flex;
+    margin-top: 20px;
 }
 
 .popular--stars-bar img {
