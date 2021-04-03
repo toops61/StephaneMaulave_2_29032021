@@ -422,9 +422,13 @@ main {
     margin-top: -10px;
 }
 
-.activites--cards--shorts {
+.activites--cards--both img {
+    width: 100%;
+}
+
+.activites--cards--pomegues {
     display: block;
-    height: 45%;
+    height: 50%;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -432,16 +436,42 @@ main {
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
-.activites--cards--shorts img {
-    width: 100%;
-}
-
 #pomegues {
-    object-position: 0 -100px;
+    object-position: 0 -70px;
 }
 
-#longchamp {
-    object-position: 0 -25px;
+.activites--cards--frioul {
+    display: block;
+    height: 35%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(199, 197, 197);
+}
+
+#frioul {
+    object-position: 0 -10px;
+}
+
+.activites--cards--garde {
+    display: block;
+    height: 40%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(199, 197, 197);
+}
+
+.activites--cards--longchamp {
+    display: block;
+    height: 45%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
 .activites--cards--legend {
