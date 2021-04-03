@@ -43,7 +43,7 @@ strong {
     font-family: 'Raleway bold';
 }
 
-main p {
+main p, .footer--list ul {
     font-size: 0.7em;
 }
 
@@ -220,13 +220,11 @@ main {
     align-self: center;
     display: flex;
     flex-direction: column;
-    border: solid blueviolet;
     width: 100%;
 }
 
 #hebergements {
     display: flex;
-    border: solid pink;
 }
 
 .hebergements--city {
@@ -278,7 +276,6 @@ main {
     width: 100%;
     height: 42%;
     background-color: white;
-    border-radius: 0 0 17px 17px;
     padding-left: 15px;
 }
 
@@ -327,7 +324,7 @@ main {
 
 .cards-popular {
     width: 280px;
-    height: 120px;
+    height: 110px;
     border: 4px solid white;
     border-radius: 20px;
     overflow: hidden;
@@ -371,24 +368,22 @@ main {
 
 /* ------------------------------ Section2 ancre activities ------------------------------ */
 #activites {
-    padding: 20px 30px;
-    border: solid gold;
+    padding: 20px 10px;
 }
 
 .activites--boxes {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: solid red;
 }
 
 .activites--cards {
     position: relative;
     height: 310px;
     width: 220px;
-    border: solid green;
     overflow: hidden;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
 .activites--cards img {
@@ -405,24 +400,35 @@ main {
 }
 
 .activites--cards--both {
-    height: 310px;
+    height: 330px;
     width: 220px;
     overflow: hidden;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    border: solid;
+    justify-content: space-between;
+    margin-top: -10px;
 }
 
 .activites--cards--shorts {
     height: 45%;
-    border: solid purple;
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
 .activites--cards--shorts img {
     width: 100%;
+}
+
+#pomegues {
+    object-position: 0 -100px;
+}
+
+#longchamp {
+    object-position: 0 -25px;
 }
 
 .activites--cards--legend {
@@ -439,5 +445,21 @@ main {
       margin: 10px -30px 0 -30px;
       background-color: #F2F2F2;
       height: 200px;
-      border: solid;
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 20px;
+  }
+
+  .footer--list {
+    margin-left: 40px;
+    margin-right: 220px;
+  }
+
+  .footer--list ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+
+  .footer--list li {
+      margin-bottom: 10px;
   }
