@@ -28,7 +28,7 @@ h4 {
     font-family: 'Raleway Bold';
 }
 
-p {
+input, p {
     font-size: 1.6em;
 }
 
@@ -41,56 +41,39 @@ strong {
     font-family: 'Raleway bold';
 }
 
-main p, .footer--list ul {
-    font-size: 1.2em;
+.footer--list ul {
+    font-size: 1.7em;
 }
 
 /* ------------------------------ header ------------------------------ */
 header {
-    height: 700px;
+    height: 1000px;
     border: solid green;
 }
 
 /* menu cliquable nav en haut */
 
 .menu_ancres {
-    width: 100%;
     border: solid rosybrown;
+    width: 100%;
 }
 
 .menu_ancres ul {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    list-style-type: none;
     border: solid grey;
-    display: flex;
-    justify-content: space-around;
 }
 
 .menu_ancres li {
-    display: inline-block;
-    font-size: 1.6em;
-    
-}
-
-.menu_ancres a:active {
-    color: #0065FC;
-    border-bottom: 3px solid #0065FC;
-    padding-bottom: 37px;
+    font-size: 1.6em; 
 }
 
 .menu_ancres p {
-    position: absolute;
     font-family: 'Raleway Bold';
     color: #0065FC;
-    margin-top: 0;
 }
 
 /* left side of the header */
 .header_side {
-    margin-top: 30px;
-    height: 90%;
+    
     display: flex;
     flex-direction: column;
     border: solid purple;
@@ -98,73 +81,67 @@ header {
 
 /* reservia description */
 .presentation {
-    height: auto;
     border: solid royalblue;
 }
 
 .presentation img {
     width: 25%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 /* city search bar */
 .search {
-    width: 40%;
-    height: 13%;
+    width: 80%;
+    height: 70px;
     margin-bottom: 3%;
     display: flex;
 }
 
 .place_icon {
     background-color: #F2F2F2;
-    flex: 1;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     border-radius: 15px 0 0 15px;
 }
 
+.place_icon img {
+    width: 20px;
+}
+
 .search input {
-    flex: 4;
     border: 1px solid #F2F2F2;
-    padding-left: 15px;
+    padding-left: 50px;
     font-family: 'Raleway Bold';
 }
 
 .search_btn {
-    flex: 2;
     background-color: #0065FC;
-    color: white;
-    border-radius: 0 15px 15px 0;
+    color: #0065FC;
+    border-radius: 15px;
     border: none;
 }
 
 /* filters bar */
 .filters {
-    height: auto;
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 15px;
+    border: solid maroon;
 }
 
 .filters--btn {
     border: solid #DEEBFF 2px;
     width: auto;
-    height: 40px;
+    height: 50px;
     display: flex;
     border-radius: 30px;
-}
-
-.filters--btn:hover {
-    box-shadow: 0 0 10px #0065FC;
-    cursor: pointer;
 }
 
 .filters--pict {
     background-color: #DEEBFF;
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
@@ -173,7 +150,6 @@ header {
 }
 
 .filters p {
-    font-size: 0.9em;
     font-family: 'Raleway Bold';
     margin: 10px 15px 15px 20px;
 }

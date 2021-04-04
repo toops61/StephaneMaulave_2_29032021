@@ -41,14 +41,14 @@ strong {
     font-family: 'Raleway bold';
 }
 
-main p, .footer--list ul {
+.footer--list ul {
     font-size: 0.7em;
 }
 
 /* ------------------------------ header ------------------------------ */
 header {
     position: relative;
-    height: 350px;
+    height: 360px;
 }
 
 /* menu cliquable en haut à droite */
@@ -112,7 +112,7 @@ header {
 /* city search bar */
 .search {
     width: 40%;
-    height: 13%;
+    height: 40px;
     margin-bottom: 3%;
     display: flex;
 }
@@ -123,6 +123,10 @@ header {
     text-align: center;
     padding-top: 10px;
     border-radius: 15px 0 0 15px;
+}
+
+.place_icon img {
+    width: 10px;
 }
 
 .search input {
