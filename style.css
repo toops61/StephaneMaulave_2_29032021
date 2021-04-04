@@ -483,13 +483,14 @@ main {
   footer {
       margin: 10px -30px 0 -30px;
       background-color: #F2F2F2;
-      height: 200px;
+      
       display: flex;
       flex-wrap: wrap;
       padding-top: 20px;
   }
 
   .footer--list {
+    height: 200px;
     margin-left: 40px;
     margin-right: 220px;
   }
