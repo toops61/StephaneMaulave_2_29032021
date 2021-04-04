@@ -55,38 +55,41 @@ header {
 }
 
 /* menu cliquable en haut à droite */
-.menu_ancres ul {
+.menu_ancres {
     position: absolute;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-top: 0%;
+    top: 0;
     right: 2%;
-    list-style-type: none;
     width: 35%;
     height: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
     z-index: 1;
 }
 
-.menu_ancres li:last-child {
-    font-family: 'Raleway Bold';
+.menu_ancres ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
 }
 
 .menu_ancres li {
-    top: 0;
-    padding: 40px 10px;
     font-size: 0.9em;
-    color: #0065FC;
-}
-
-.menu_ancres li:hover {
-    border-top: 3px solid #0065FC;
-    padding-top: 37px;
+    margin-right: 50px;
 }
 
 .menu_ancres a:hover {
     color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 37px;
 }
+
+.menu_ancres p {
+    font-family: 'Raleway Bold';
+    color: #0065FC;
+    margin-top: 0;
+}
+
 /* left side of the header */
 .header_side {
     position: absolute;
