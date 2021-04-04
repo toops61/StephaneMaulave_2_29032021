@@ -14,22 +14,22 @@ body {
 }
 
 h2 {
-    font-size: 1.1em;
+    font-size: 2em;
     font-family: 'Raleway Bold';
 }
 
 h3 {
-    font-size: 0.9em;
+    font-size: 1.4em;
     font-family: 'Raleway Bold';
 }
 
 h4 {
-    font-size: 0.74em;
+    font-size: 1.2em;
     font-family: 'Raleway Bold';
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 1.6em;
 }
 
 a {
@@ -42,46 +42,46 @@ strong {
 }
 
 main p, .footer--list ul {
-    font-size: 0.7em;
+    font-size: 1.2em;
 }
 
 /* ------------------------------ header ------------------------------ */
 header {
-    position: relative;
-    height: 350px;
+    height: 700px;
+    border: solid green;
 }
 
-/* menu cliquable en haut à droite */
+/* menu cliquable nav en haut */
+
 .menu_ancres {
-    position: absolute;
-    top: 0;
-    right: 2%;
-    width: 35%;
-    height: 20%;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 40px;
-    z-index: 1;
+    width: 100%;
+    border: solid rosybrown;
 }
 
 .menu_ancres ul {
-    display: flex;
+    position: absolute;
+    left: 0;
+    width: 100%;
     list-style-type: none;
-    margin: 0;
+    border: solid grey;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu_ancres li {
-    font-size: 0.9em;
-    margin-right: 50px;
+    display: inline-block;
+    font-size: 1.6em;
+    
 }
 
-.menu_ancres a:hover {
+.menu_ancres a:active {
     color: #0065FC;
-    border-top: 3px solid #0065FC;
-    padding-top: 37px;
+    border-bottom: 3px solid #0065FC;
+    padding-bottom: 37px;
 }
 
 .menu_ancres p {
+    position: absolute;
     font-family: 'Raleway Bold';
     color: #0065FC;
     margin-top: 0;
@@ -89,24 +89,22 @@ header {
 
 /* left side of the header */
 .header_side {
-    position: absolute;
     margin-top: 30px;
     height: 90%;
     display: flex;
     flex-direction: column;
+    border: solid purple;
 }
 
 /* reservia description */
 .presentation {
     height: auto;
+    border: solid royalblue;
 }
 
 .presentation img {
-    width: 85px;
-}
-
-.presentation p {
-    margin-top: -10px;
+    width: 25%;
+    margin-bottom: 10%;
 }
 
 /* city search bar */
