@@ -29,12 +29,7 @@ h4 {
 }
 
 input, p {
-    font-size: 1.6em;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+    font-size: 1.5em;
 }
 
 strong {
@@ -47,23 +42,36 @@ strong {
 
 /* ------------------------------ header ------------------------------ */
 header {
+    
     height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     border: solid green;
 }
 
 /* menu cliquable nav en haut */
 
 .menu_ancres {
-    border: solid rosybrown;
     width: 100%;
+    border: solid rosybrown;
 }
 
 .menu_ancres ul {
+    position: absolute;
+    width: 90%;
+    left: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
     border: solid grey;
 }
 
 .menu_ancres li {
-    font-size: 1.6em; 
+    display: inline-block;
+    margin-left: 0;
+    font-size: 1.6em;
+    border: solid springgreen;
 }
 
 .menu_ancres p {
@@ -73,10 +81,11 @@ header {
 
 /* left side of the header */
 .header_side {
-    
     display: flex;
     flex-direction: column;
-    border: solid purple;
+    align-items: center;
+    border: solid orange;
+    background-color: rgb(236, 217, 181);
 }
 
 /* reservia description */
@@ -91,8 +100,8 @@ header {
 
 /* city search bar */
 .search {
-    width: 80%;
-    height: 70px;
+    height: 80px;
+    width: auto;
     margin-bottom: 3%;
     display: flex;
 }
@@ -100,25 +109,38 @@ header {
 .place_icon {
     background-color: #F2F2F2;
     text-align: center;
-    padding-top: 20px;
-    border-radius: 15px 0 0 15px;
+    padding: 25px 25px;
+    border-radius: 20px 0 0 20px;
 }
 
 .place_icon img {
-    width: 20px;
+    width: 22px;
 }
-
 .search input {
+    width: auto;
     border: 1px solid #F2F2F2;
-    padding-left: 50px;
+    padding-left: 30px;
     font-family: 'Raleway Bold';
 }
 
 .search_btn {
+    position: relative;
     background-color: #0065FC;
-    color: #0065FC;
-    border-radius: 15px;
-    border: none;
+    border-radius: 20px;
+    margin-left: -20px;
+    width: 100px;
+}
+
+.search_btn img {
+    width: 35px;
+    margin-top: -18px;
+    margin-left: -15px;
+    z-index: 1;
+}
+
+.search_btn p {
+   position: absolute;
+    z-index: -2;
 }
 
 /* filters bar */

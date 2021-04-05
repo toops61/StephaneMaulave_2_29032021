@@ -144,6 +144,11 @@ header {
     border: none;
 }
 
+.search_btn img {
+    position: absolute;
+    z-index: -2;
+}
+
 /* filters bar */
 .filters {
     height: auto;
