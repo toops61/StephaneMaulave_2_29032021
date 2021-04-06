@@ -335,8 +335,13 @@ main {
     margin-bottom: 10px;
 }
 
+.hebergements--popular--title h2 {
+    margin-top: 0;
+}
+
 .hebergements--popular--title img {
     width: 20px;
+    height: 20px;
 }
 
 .cards-popular {
