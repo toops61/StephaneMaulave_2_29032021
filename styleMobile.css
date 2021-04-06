@@ -153,7 +153,7 @@ header {
     z-index: 1;
 }
 
-.search_btn p {
+.search_btn span {
    position: absolute;
    color: white;
     z-index: -2;
