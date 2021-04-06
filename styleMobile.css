@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.8em;
     font-family: 'Raleway Bold';
 }
 
@@ -49,6 +49,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 /* ------------------------------ header ------------------------------ */
 header {
     display: flex;
@@ -103,7 +104,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 20px 40px;
 }
 
 /* reservia description */
@@ -111,6 +112,7 @@ header {
     position: absolute;
     width: 25%;
     top: 20px;
+    margin-left: 20px;
 }
 
 /* city search bar */
@@ -133,7 +135,8 @@ header {
 
 .search input {
     border: 1px solid #F2F2F2;
-    padding-left: 30px;
+    padding-left: 20px; padding-right: 20px;
+    width: 85%;
     font-family: 'Raleway Bold';
 }
 
@@ -146,7 +149,7 @@ header {
 }
 
 .search_btn img {
-    width: 32px;
+    width: 29px;
     z-index: 1;
 }
 
@@ -178,10 +181,11 @@ header {
     width: 65px;
     height: 65px;
     border-radius: 50%;
+    margin-left: -1px;
 }
 
 .filters h3 {
-    margin-right: 370px;
+    margin-right: 380px;
 }
 
 .filters p {
@@ -280,6 +284,10 @@ header {
     margin-top: -20px;
 }
 
+.popular--legend h4 {
+    margin-top: 14px;
+}
+
 .popular--stars-bar {
     width: 150px;
     display: flex;
@@ -290,18 +298,12 @@ header {
     width: 18px;
 }
 
-.hebergements--city h3, .hebergements--city h2 {
-    align-self: flex-start;
-    margin-left: 40px;
-}
-
 /* ------------------------------ Main section with "hébergements" ------------------------------ */
 main {
     align-self: center;
     display: flex;
     flex-direction: column;
     width: 100%;
-    border: solid rosybrown;
 }
 
 #hebergements {
@@ -330,7 +332,7 @@ main {
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
-    border: solid pink;
+    margin-bottom: 20px;
 }
 
 .cards img {
@@ -363,25 +365,32 @@ main {
 }
 
 .cards--legend p {
-    margin-top: -22px;
+    margin-top: -25px;
 }
 
 .stars-bar {
     width: 150px;
     display: flex;
-    margin-top: -10px;
+    margin-top: -12px;
 }
 
 .stars-bar img {
     width: 18px;
 }
 
+.hebergements--city h3, .hebergements--city h2 {
+    align-self: flex-start;
+    margin-left: 10px;
+}
 /* ------------------------------ Section2 ancre activities ------------------------------ */
+#activites h2 {
+    margin-left: 40px;
+}
+
 .activites--boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid blue;
 }
 
 .activites--boxes img {
@@ -414,7 +423,7 @@ main {
     overflow: hidden;
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
-    border: solid orange;
+    margin-bottom: 20px;
 }
 
 #pomegues img {
@@ -440,18 +449,11 @@ main {
 
   /* ------------------------------ Footer ------------------------------ */
   footer {
-      margin: 10px -30px 0 -30px;
-      background-color: #F2F2F2;
-      
-      display: flex;
-      flex-wrap: wrap;
-      padding-top: 20px;
-  }
-
-  .footer--list {
-    height: 200px;
-    margin-left: 40px;
-    margin-right: 220px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px;
   }
 
   .footer--list ul {
@@ -461,8 +463,4 @@ main {
 
   .footer--list li {
       margin-bottom: 10px;
-  }
-
-  .footer--list a:hover {
-      color: #0065FC;
   }
