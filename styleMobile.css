@@ -230,90 +230,6 @@ header {
     margin-top: 5px;
 }
 
-/* ------------------------------ Main section with "hébergements" ------------------------------ */
-main {
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: solid rosybrown;
-}
-
-#hebergements {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.hebergements--city {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 30px 0px;
-    border-radius: 20px;
-    border: solid red;
-}
-
-.hebergements--city--cards { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cards {
-    display: block;
-    width: 440px;
-    height: 250px;
-    border: 8px solid white;
-    position: relative;
-    border-radius: 20px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    box-shadow: 0px 0px 10px rgb(199, 197, 197);
-}
-
-.cards img {
-    width: 100%;
-}
-
-.img-upper {
-    object-position: 0px -80px;
-}
-
-#laMer {
-    object-position: 0px -140px;
-}
-
-#amina {
-    object-position: 0px -260px;
-}
-
-.cards--legend {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 42%;
-    background-color: white;
-    padding-left: 15px;
-}
-
-.cards--legend h4 {
-    margin-top: 8px;
-}
-
-.cards--legend p {
-    margin-top: -12px;
-}
-
-.stars-bar {
-    width: 150px;
-    display: flex;
-    margin-top: -10px;
-}
-
-.stars-bar img {
-    width: 18px;
-}
-
 /* les plus populaires */
 .hebergements--popular {
     display: flex;
@@ -379,94 +295,147 @@ main {
     margin-left: 40px;
 }
 
-/* ------------------------------ Section2 ancre activities ------------------------------ */
-.activites--boxes {
+/* ------------------------------ Main section with "hébergements" ------------------------------ */
+main {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: solid rosybrown;
+}
+
+#hebergements {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.hebergements--city {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px 0px;
+}
+
+.hebergements--city--cards { 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.activites--cards {
+.cards, .activites--cards {
+    display: block;
+    width: 440px;
+    height: 250px;
     position: relative;
-    height: 310px;
-    width: 220px;
+    border-radius: 30px;
     overflow: hidden;
-    border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
+    border: solid pink;
 }
 
-.activites--cards img {
-    height: 100%;
-}
-
-#vieuxPort {
-    object-position: -120px 0;
-}
-
-#calanques {
-    object-position: -135px 0;
-    filter: brightness(1.1);
-}
-
-.activites--cards--both {
-    height: 330px;
-    width: 240px;
-    overflow: hidden;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: -10px;
-}
-
-.activites--cards--both img {
+.cards img {
     width: 100%;
 }
 
-.activites--cards--shorts {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgb(199, 197, 197);
+.img-upper {
+    object-position: 0px -80px;
 }
 
-#pomegues {
-    height: 50%;
+#laMer {
+    object-position: 0px -140px;
+}
+
+#amina {
+    object-position: 0px -260px;
+}
+
+.cards--legend {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 42%;
+    background-color: white;
+    padding-left: 15px;
+}
+
+.cards--legend h4 {
+    margin-top: 8px;
+}
+
+.cards--legend p {
+    margin-top: -22px;
+}
+
+.stars-bar {
+    width: 150px;
+    display: flex;
+    margin-top: -10px;
+}
+
+.stars-bar img {
+    width: 18px;
+}
+
+/* ------------------------------ Section2 ancre activities ------------------------------ */
+.activites--boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid blue;
+}
+
+.activites--boxes img {
+    width: 100%;
+}
+
+#vieuxPort, #longchamp img {
+    object-position: 0 -30px;
+}
+
+#calanques {
+    object-position: 0 -25px;
+    filter: brightness(1.1);
+}
+
+#garde img {
+    object-position: 0 -20px;
+}
+
+.activites--cards--both {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.activites--cards--shorts {
+    width: 440px;
+    height: 250px;  
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(199, 197, 197);
+    border: solid orange;
 }
 
 #pomegues img {
-    object-position: 0 -70px;
-}
-
-#frioul {
-    height: 35%;
+    object-position: 0 -200px;
 }
 
 #frioul img {
-    object-position: 0 -10px;
-}
-
-#garde {
-    height: 40%;
-}
-
-#longchamp {
-    height: 45%;
+    object-position: 0 -20px;
 }
 
 .activites--cards--legend {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 40px;
+    height: 70px;
     background-color: white;  
     padding-left: 20px;
 }
 
 .activites--cards--legend h4 {
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
   /* ------------------------------ Footer ------------------------------ */
