@@ -119,29 +119,31 @@ header {
 
 .place_icon {
     background-color: #F2F2F2;
-    flex: 1;
     text-align: center;
-    padding-top: 10px;
     border-radius: 15px 0 0 15px;
+    width: 50px;
 }
 
 .place_icon img {
+    margin-top: 12px;
     width: 10px;
+    height: auto;
 }
 
 .search input {
-    flex: 4;
+    width: 80%;
     border: 1px solid #F2F2F2;
     padding-left: 15px;
     font-family: 'Raleway Bold';
 }
 
 .search_btn {
-    flex: 2;
+    width: 90px;
     background-color: #0065FC;
     color: white;
     border-radius: 0 15px 15px 0;
     border: none;
+    margin-left: -4px;
 }
 
 .search_btn img {
@@ -252,6 +254,11 @@ main {
     border-radius: 20px;
 }
 
+.hebergements--city h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
 .hebergements--city--cards { 
     display: flex;
     justify-content: space-between;
@@ -265,13 +272,15 @@ main {
     border: 4px solid white;
     position: relative;
     border-radius: 20px;
-    overflow: hidden;
     margin-bottom: 20px;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
 .cards img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .img-upper {
@@ -289,10 +298,11 @@ main {
 .cards--legend {
     position: absolute;
     bottom: 0;
-    width: 100%;
-    height: 42%;
-    background-color: white;
+    width: 200px;
+    height: 70px;
     padding-left: 15px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
 }
 
 .cards--legend h4 {
@@ -309,8 +319,9 @@ main {
     margin-top: -5px;
 }
 
-.stars-bar img {
+.stars-bar img, .popular--stars-bar img {
     width: 10px;
+    height: 10px;
 }
 
 .hebergements--city a:hover {
@@ -365,7 +376,7 @@ main {
     width: 60%;
     height: 100%;
     background-color: white;
-    border-radius: 0 17px 17px 0;
+    border-radius: 0 15px 15px 0;
     padding-left: 10px;
     display: flex;
     flex-direction: column;
@@ -382,11 +393,7 @@ main {
 .popular--stars-bar {
     width: 50px;
     display: flex;
-    margin-top: 20px;
-}
-
-.popular--stars-bar img {
-    width: 10px;
+    margin-top: 15px;
 }
 
 .hebergements--popular a:hover {
@@ -401,6 +408,7 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 .activites--cards {
@@ -408,13 +416,15 @@ main {
     position: relative;
     height: 310px;
     width: 220px;
-    overflow: hidden;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
 .activites--cards img {
+    object-fit: cover;
+    width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 #vieuxPort {
@@ -429,7 +439,6 @@ main {
 .activites--cards--both {
     height: 330px;
     width: 240px;
-    overflow: hidden;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -439,12 +448,14 @@ main {
 
 .activites--cards--both img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 .activites--cards--shorts {
     display: block;
     position: relative;
-    overflow: hidden;
     border-radius: 20px;
     margin: 10px;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
@@ -477,10 +488,11 @@ main {
 .activites--cards--legend {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 200px;
     height: 40px;
     background-color: white;  
     padding-left: 20px;
+    border-radius: 0 0 18px 18px;
 }
 
 .activites--cards--legend h4 {
