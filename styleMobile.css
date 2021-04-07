@@ -468,6 +468,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     padding-left: 80px;
+    padding-bottom: 80px;
   }
 
   .footer--list ul {
