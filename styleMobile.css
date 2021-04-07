@@ -111,6 +111,7 @@ header {
 .presentation img {
     position: absolute;
     width: 25%;
+    height: auto;
     top: 20px;
     margin-left: 20px;
 }

@@ -103,6 +103,7 @@ header {
 
 .presentation img {
     width: 85px;
+    height: auto;
 }
 
 .presentation p {
@@ -111,7 +112,6 @@ header {
 
 /* city search bar */
 .search {
-    width: 40%;
     height: 40px;
     margin-bottom: 3%;
     display: flex;
@@ -131,7 +131,7 @@ header {
 }
 
 .search input {
-    width: 80%;
+    width: 250px;
     border: 1px solid #F2F2F2;
     padding-left: 15px;
     font-family: 'Raleway Bold';
@@ -147,7 +147,8 @@ header {
 }
 
 .search_btn img {
-    position: absolute;
+    width: 0;
+    height: auto;
     z-index: -2;
 }
 
@@ -266,7 +267,6 @@ main {
 }
 
 .cards {
-    display: block;
     width: 215px;
     height: 155px;
     border: 4px solid white;
@@ -439,11 +439,11 @@ main {
 .activites--cards--both {
     height: 330px;
     width: 240px;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: -10px;
+    margin-left: -10px;
 }
 
 .activites--cards--both img {
