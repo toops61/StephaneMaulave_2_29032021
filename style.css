@@ -507,16 +507,15 @@ main {
   footer {
       margin: 10px -30px 0 -30px;
       background-color: #F2F2F2;
-      
       display: flex;
-      flex-wrap: wrap;
+      justify-content: space-between;
       padding-top: 20px;
   }
 
   .footer--list {
+    width: auto;
     height: 200px;
     margin-left: 40px;
-    margin-right: 220px;
   }
 
   .footer--list ul {
@@ -525,7 +524,9 @@ main {
   }
 
   .footer--list li {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
+      width: 180px;
+
   }
 
   .footer--list a:hover {
