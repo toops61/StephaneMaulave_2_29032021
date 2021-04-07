@@ -25,7 +25,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-family: 'Raleway Bold';
 }
 
@@ -34,7 +34,7 @@ input {
 }
 
 p {
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 
 strong {
@@ -152,6 +152,7 @@ header {
 
 .search_btn img {
     width: 32px;
+    height: auto;
     z-index: 1;
 }
 
@@ -239,6 +240,7 @@ header {
 
 .info-bulle img {
     width: 6px;
+    height: auto;
     margin-top: 5px;
 }
 
@@ -306,7 +308,7 @@ header {
 
 .popular--stars-bar img {
     width: 18px;
-    height: auto;
+    height: 18px;
 }
 
 /* ------------------------------ Main section with "hébergements" ------------------------------ */
@@ -346,7 +348,7 @@ main {
     margin-bottom: 20px;
 }
 
-.cards img {
+.cards--img {
     width: 100%;
 }
 
@@ -386,6 +388,7 @@ main {
 
 .stars-bar img {
     width: 18px;
+    height: 18px;
 }
 
 .hebergements--city h3, .hebergements--city h2 {
