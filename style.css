@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Raleway Bold';
-    src: url('fonts/Raleway-Bold.ttf') format('truetype');
+    src: url('fonts/Raleway-SemiBold.ttf') format('truetype');
 }
 
 body {
@@ -24,12 +24,12 @@ h3 {
 }
 
 h4 {
-    font-size: 0.74em;
+    font-size: 0.8em;
     font-family: 'Raleway Bold';
 }
 
 p {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 a {
@@ -488,6 +488,7 @@ main {
 
 .activites--cards--legend h4 {
     margin-top: 10px;
+    font-size: 0.7em;
 }
 
 #activites a:hover {
