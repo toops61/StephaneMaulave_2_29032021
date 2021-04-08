@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Raleway Bold';
-    src: url('fonts/Raleway-Bold.ttf') format('truetype');
+    src: url('fonts/Raleway-SemiBold.ttf') format('truetype');
 }
 
 body {
@@ -199,7 +199,7 @@ header {
 
 .filters p {
     font-family: 'Raleway Bold';
-    margin: 18px 30px 25px 20px;
+    margin: 18px 30px 25px 22px;
     font-size: 1.7em;
 }
 
