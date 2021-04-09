@@ -11,6 +11,7 @@
 body {
     margin: 0 30px;
     font-family: 'Raleway', "Arial Black", Arial, Verdana, sans-serif;
+    max-width: 1920px;
 }
 
 h2 {
