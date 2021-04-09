@@ -82,11 +82,11 @@ header {
     border-bottom: solid #F2F2F2;
 }
 
-.menu_ancres a:active {
+.menu_ancres a:hover {
     color: #0065FC;
 }
 
-.menu_ancres li:active {
+.menu_ancres li:hover {
     border-bottom: solid #0065FC;
     padding-bottom: 20px;
 }
