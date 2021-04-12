@@ -344,25 +344,27 @@ main {
     height: 280px;
     position: relative;
     border-radius: 30px;
-    overflow: hidden;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
     margin-bottom: 20px;
 }
 
 .cards--img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
 .img-upper {
-    object-position: 0px -80px;
+    object-position: 0px -90px;
 }
 
 #laMer {
-    object-position: 0px -140px;
+    object-position: 0px -180px;
 }
 
 #amina {
-    object-position: 0px -290px;
+    object-position: 0px -330px;
 }
 
 .cards--legend {
@@ -372,6 +374,7 @@ main {
     height: 42%;
     background-color: white;
     padding-left: 25px;
+    border-radius: 0 0 25px 25px;
 }
 
 .cards--legend h4 {
@@ -410,19 +413,22 @@ main {
 
 .activites--boxes img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
 }
 
-#vieuxPort, #longchamp img {
+#vieuxPort {
     object-position: 0 -35px;
 }
 
 #calanques {
-    object-position: 0 -25px;
+    object-position: 0 -35px;
     filter: brightness(1.1);
 }
 
-#garde img {
-    object-position: 0 -20px;
+#garde {
+    object-position: 0 -15px;
 }
 
 .activites--cards--both {
@@ -435,17 +441,16 @@ main {
     width: 550px;
     height: 270px;  
     position: relative;
-    overflow: hidden;
     border-radius: 30px;
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
     margin-bottom: 20px;
 }
 
-#pomegues img {
+#pomegues {
     object-position: 0 -240px;
 }
 
-#frioul img {
+#frioul {
     object-position: 0 -20px;
 }
 
@@ -456,6 +461,7 @@ main {
     height: 70px;
     background-color: white;  
     padding-left: 30px;
+    border-radius: 0 0 25px 25px;
 }
 
 .activites--cards--legend h4 {
