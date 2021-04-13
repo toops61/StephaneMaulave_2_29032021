@@ -46,6 +46,10 @@ strong {
     font-size: 0.7em;
 }
 
+.container {
+    padding: 0 30px;
+}
+
 /* ------------------------------ header ------------------------------ */
 header {
     position: relative;
@@ -325,6 +329,7 @@ main {
     padding-top: 30px;
     background-color: #F2F2F2;
     flex: 9;
+    min-width: 320px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -507,7 +512,7 @@ main {
   .footer--list {
     width: auto;
     height: 200px;
-    margin-left: 40px;
+    margin-left: 5%;
     margin-right: 15%;
   }
 
