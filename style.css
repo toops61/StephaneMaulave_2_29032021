@@ -9,7 +9,7 @@
 }
 
 body {
-    margin: 0 30px;
+    margin: 0;
     font-family: 'Raleway', "Arial Black", Arial, Verdana, sans-serif;
     max-width: 1920px;
 }
@@ -47,7 +47,7 @@ strong {
 }
 
 .container {
-    padding: 0 30px;
+    padding: 0 40px;
 }
 
 /* ------------------------------ header ------------------------------ */
@@ -503,7 +503,7 @@ main {
 
   /* ------------------------------ Footer ------------------------------ */
   footer {
-      margin: 10px -30px 0 -30px;
+      margin: 10px 0px;
       background-color: #F2F2F2;
       display: flex;
       padding-top: 20px;
@@ -512,8 +512,8 @@ main {
   .footer--list {
     width: auto;
     height: 200px;
-    margin-left: 5%;
-    margin-right: 15%;
+    margin-left: 6%;
+    margin-right: 12%;
   }
 
   .footer--list ul {
