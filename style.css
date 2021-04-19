@@ -317,7 +317,7 @@ main {
     margin-top: -7px;
 }
 
-.stars-bar img, .popular--stars-bar img {
+.stars-bar img, .popular__stars-bar img {
     width: 10px;
     height: 10px;
 }
@@ -389,7 +389,7 @@ main {
     margin-top: -10px;
 }
 
-.popular--stars-bar {
+.popular__stars-bar {
     width: 50px;
     display: flex;
     margin-top: 15px;

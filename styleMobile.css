@@ -306,13 +306,13 @@ header {
     margin-top: 10px;
 }
 
-.popular--stars-bar {
+.popular__stars-bar {
     width: 150px;
     display: flex;
     margin-top: 10px;
 }
 
-.popular--stars-bar img {
+.popular__stars-bar img {
     width: 18px;
     height: 18px;
 }
