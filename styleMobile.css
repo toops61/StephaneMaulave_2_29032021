@@ -41,7 +41,7 @@ strong {
     font-family: 'Raleway bold';
 }
 
-.footer--list ul {
+.footer__list ul {
     font-size: 1.6em;
 }
 
@@ -127,14 +127,14 @@ header {
     display: flex;
 }
 
-.place-icon {
+.place__icon {
     background-color: #F2F2F2;
     text-align: center;
     padding: 28px 30px;
     border-radius: 20px 0 0 20px;
 }
 
-.place-icon img {
+.place__icon img {
     width: 25px;
     height: auto;
 }
@@ -235,7 +235,7 @@ header {
     margin: 20px 20px;
 }
 
-.info-bulle {
+.info__bulle {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -244,34 +244,34 @@ header {
     margin: 22px 15px 0px 10px;
 }
 
-.info-bulle img {
+.info__bulle img {
     width: 6px;
     height: auto;
     margin-top: 5px;
 }
 
 /* les plus populaires */
-.hebergements--popular {
+.hebergements-popular {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #F2F2F2;
 }
 
-.hebergements--popular--title {
+.hebergements-popular__title {
     display: flex;
     justify-content: space-between;
     margin: 10px;
     width: 80%;
 }
 
-.hebergements--popular--title img {
+.hebergements-popular__title img {
     margin-top: 30px;
     width: 40px;
     height: 40px;
 }
 
-.cards-popular {
+.popular__cards {
     width: 450px;
     height: 180px;
     border: 8px solid white;
@@ -282,13 +282,13 @@ header {
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
-.cards-popular--img {
+.popular__cards__img {
     width: 37%;
     height: 100%;
     object-fit: cover;
 }
 
-.popular--legend {
+.popular__legend {
     width: 65%;
     height: 100%;
     background-color: white;
@@ -298,11 +298,11 @@ header {
     flex-direction: column;
 }
 
-.popular--legend p, .cards--legend p {
+.popular__legend p, .cards__legend p {
     margin-top: -35px;
 }
 
-.popular--legend h4 {
+.popular__legend h4 {
     margin-top: 10px;
 }
 
@@ -343,7 +343,7 @@ main {
     align-items: center;
 }
 
-.cards, .activites--cards {
+.cards, .activites__cards {
     display: block;
     width: 450px;
     height: 260px;
@@ -360,7 +360,7 @@ main {
     border-radius: 30px;
 }
 
-.img-upper {
+.img--upper {
     object-position: 0px -90px;
 }
 
@@ -372,21 +372,21 @@ main {
     object-position: 0px -330px;
 }
 
-.cards--legend {
+.cards__legend {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 425px;
     height: 42%;
     background-color: white;
     padding-left: 25px;
     border-radius: 0 0 25px 25px;
 }
 
-.cards--legend h4 {
+.cards__legend h4 {
     margin-top: 8px;
 }
 
-.cards--legend p {
+.cards__legend p {
     margin-top: -35px;
 }
 
@@ -410,13 +410,13 @@ main {
     margin-left: 70px;
 }
 
-.activites--boxes {
+.activites__boxes {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.activites--boxes img {
+.activites__boxes img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -436,13 +436,13 @@ main {
     object-position: 0 -15px;
 }
 
-.activites--cards--both {
+.activites__cards__both {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.activites--cards--shorts {
+.activites__cards__shorts {
     width: 450px;
     height: 260px;  
     position: relative;
@@ -459,17 +459,17 @@ main {
     object-position: 0 -20px;
 }
 
-.activites--cards--legend {
+.activites__cards__legend {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 420px;
     height: 70px;
     background-color: white;  
     padding-left: 30px;
     border-radius: 0 0 25px 25px;
 }
 
-.activites--cards--legend h4 {
+.activites__cards__legend h4 {
     margin-top: 17px;
 }
 

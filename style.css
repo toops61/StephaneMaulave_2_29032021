@@ -76,7 +76,7 @@ header {
 }
 
 .menu__ancres li {
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-right: 50px;
 }
 
@@ -117,14 +117,14 @@ header {
     display: flex;
 }
 
-.place-icon {
+.place__icon {
     background-color: #F2F2F2;
     text-align: center;
     border-radius: 15px 0 0 15px;
     width: 50px;
 }
 
-.place-icon img {
+.place__icon img {
     margin-top: 12px;
     width: 10px;
     height: auto;
@@ -219,7 +219,7 @@ header {
     margin-bottom: 20px;
 }
 
-.info-bulle {
+.info__bulle {
     height: 25px;
     width: 25px;
     border-radius: 50%;
@@ -228,7 +228,7 @@ header {
     margin: 8px 15px 0px 0px;
 }
 
-.info-bulle img {
+.info__bulle img {
     height: 50%;
     margin-top: 20%;
 }
@@ -281,7 +281,7 @@ main {
     border-radius: 20px;
 }
 
-.img-upper {
+.img--upper {
     object-position: 0px -30px;
 }
 
@@ -293,7 +293,7 @@ main {
     object-position: 0px -115px;
 }
 
-.cards--legend {
+.cards__legend {
     position: absolute;
     bottom: 0;
     width: 200px;
@@ -303,11 +303,11 @@ main {
     border-radius: 0 0 15px 15px;
 }
 
-.cards--legend h4 {
+.cards__legend h4 {
     margin-top: 7px;
 }
 
-.cards--legend p {
+.cards__legend p {
     margin-top: -14px;
 }
 
@@ -327,7 +327,7 @@ main {
 }
 
 /* les plus populaires : aside */
-.hebergements--popular {
+.hebergements-popular {
     padding-top: 30px;
     background-color: #F2F2F2;
     flex: 9;
@@ -338,23 +338,23 @@ main {
     border-radius: 20px;
 }
 
-.hebergements--popular--title {
+.hebergements-popular__title {
     width: 280px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.hebergements--popular--title h2 {
+.hebergements-popular__title h2 {
     margin-top: 0;
 }
 
-.hebergements--popular--title img {
+.hebergements-popular__title img {
     width: 20px;
     height: 20px;
 }
 
-.cards-popular {
+.popular__cards {
     width: 280px;
     height: 110px;
     border: 4px solid white;
@@ -365,13 +365,13 @@ main {
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
-.cards-popular--img {
+.popular__cards__img {
     width: 40%;
     height: 120px;
     object-fit: cover;
 }
 
-.popular--legend {
+.popular__legend {
     width: 60%;
     height: 100%;
     background-color: white;
@@ -381,11 +381,11 @@ main {
     flex-direction: column;
 }
 
-.popular--legend h4 {
+.popular__legend h4 {
     margin-top: 10px;
 }
 
-.popular--legend p {
+.popular__legend p {
     margin-top: -10px;
 }
 
@@ -395,7 +395,7 @@ main {
     margin-top: 15px;
 }
 
-.hebergements--popular a:hover {
+.hebergements-popular a:hover {
     color: #0065FC;
 }
 /* ------------------------------ Section2 ancre activities ------------------------------ */
@@ -403,14 +403,14 @@ main {
     padding: 20px 10px;
 }
 
-.activites--boxes {
+.activites__boxes {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
 }
 
-.activites--cards {
+.activites__cards {
     display: block;
     position: relative;
     height: 310px;
@@ -419,7 +419,7 @@ main {
     box-shadow: 0px 0px 10px rgb(199, 197, 197);
 }
 
-.activites--cards img {
+.activites__cards img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -435,7 +435,7 @@ main {
     filter: brightness(1.1);
 }
 
-.activites--cards--both {
+.activites__cards__both {
     height: 330px;
     width: 240px;
     display: flex;
@@ -445,14 +445,14 @@ main {
     margin-left: -10px;
 }
 
-.activites--cards--both img {
+.activites__cards__both img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
 
-.activites--cards--shorts {
+.activites__cards__shorts {
     display: block;
     position: relative;
     border-radius: 20px;
@@ -484,7 +484,7 @@ main {
     height: 45%;
 }
 
-.activites--cards--legend {
+.activites__cards__legend {
     position: absolute;
     bottom: 0;
     width: 200px;
@@ -494,7 +494,7 @@ main {
     border-radius: 0 0 18px 18px;
 }
 
-.activites--cards--legend h4 {
+.activites__cards__legend h4 {
     margin-top: 10px;
     font-size: 0.7em;
 }
