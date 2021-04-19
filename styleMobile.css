@@ -147,7 +147,7 @@ header {
     font-size: 1.4em;
 }
 
-.search-btn {
+.search__btn {
     position: relative;
     background-color: #0065FC;
     border-radius: 25px;
@@ -155,13 +155,13 @@ header {
     width: 130px;
 }
 
-.search-btn img {
+.search__btn img {
     width: 32px;
     height: auto;
     z-index: 1;
 }
 
-.search-btn span {
+.search__btn span {
    position: absolute;
    color: white;
     z-index: -2;
@@ -483,11 +483,11 @@ main {
     padding: 40px 0 70px 70px;
   }
 
-  .footer--list ul {
+  .footer__list ul {
       list-style-type: none;
       padding-left: 0;
   }
 
-  .footer--list li {
+  .footer__list li {
       margin-bottom: 10px;
   }

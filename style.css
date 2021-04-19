@@ -42,7 +42,7 @@ strong {
     font-family: 'Raleway bold';
 }
 
-.footer--list ul {
+.footer__list ul {
     font-size: 0.7em;
 }
 
@@ -282,11 +282,11 @@ main {
 }
 
 .img-upper {
-    object-position: 0px -20px;
+    object-position: 0px -30px;
 }
 
 #laMer {
-    object-position: 0px -60px;
+    object-position: 0px -54px;
 }
 
 #amina {
@@ -297,24 +297,24 @@ main {
     position: absolute;
     bottom: 0;
     width: 200px;
-    height: 70px;
+    height: 60px;
     padding-left: 15px;
     background-color: white;
     border-radius: 0 0 15px 15px;
 }
 
 .cards--legend h4 {
-    margin-top: 8px;
+    margin-top: 7px;
 }
 
 .cards--legend p {
-    margin-top: -12px;
+    margin-top: -14px;
 }
 
 .stars-bar {
     width: 50px;
     display: flex;
-    margin-top: -5px;
+    margin-top: -7px;
 }
 
 .stars-bar img, .popular--stars-bar img {
@@ -465,7 +465,7 @@ main {
 }
 
 #pomegues img {
-    object-position: 0 -70px;
+    object-position: 0 -80px;
 }
 
 #frioul {
@@ -488,7 +488,7 @@ main {
     position: absolute;
     bottom: 0;
     width: 200px;
-    height: 40px;
+    height: 35px;
     background-color: white;  
     padding-left: 20px;
     border-radius: 0 0 18px 18px;
@@ -510,30 +510,30 @@ footer {
     padding-top: 20px ;
 }
 
-.footer__inside {
+.footer-inside {
         display: flex;
         max-width: 1440px;
         margin: 20px auto 0;
 }
 
-  .footer--list {
+  .footer__list {
     width: auto;
     height: 200px;
     margin-left: 4%;
     margin-right: 12%;
   }
 
-  .footer--list ul {
+  .footer__list ul {
       list-style-type: none;
       padding-left: 0;
   }
 
-  .footer--list li {
+  .footer__list li {
       margin-bottom: 15px;
       width: 180px;
 
   }
 
-  .footer--list a:hover {
+  .footer__list a:hover {
       color: #0065FC;
   }
